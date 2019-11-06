@@ -1,0 +1,23 @@
+nav a {
+  display: inline-block;
+}
+
+.grid-1-container {
+  display: grid;
+  grid-template-areas:
+    "myportfolio"
+    "majorshoppe"
+  grid-gap: 40px;
+}
+
+.myportfolio {
+  grid-area: ;
+}
+
+.grid-1-picture{
+  grid-area: majorshoppe;
+}
+
+.graf{
+  grid-area: 
+}

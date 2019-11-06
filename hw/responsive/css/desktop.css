@@ -1,0 +1,245 @@
+html{
+  font-family: 'Lora', serif;
+}
+
+.name{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+img{
+  /* height: 180px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+/* Add a same background color to the top navigation as screen background */
+.topnav {
+  background-color: #fbfbf8;
+  overflow: hidden;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  background-color: #fbfbf8;
+  text-align: center;
+  color: #535353;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DED0CD;
+  color: black;
+}
+
+body{
+  background-color: #fbfbf8;
+  /**light tan**/
+  color: #535353;
+  /**text is dark brown/black**/
+}
+
+.image-grid {
+  width: 100%;
+  height: 100%;
+  /* max-height: 737px; */
+}
+
+.image-grid-tall {
+  width: 100%;
+  height: 370px;
+  margin: 0 auto;
+  display: block;
+}
+
+.image-grid-eye {
+  width: 100%;
+  height: 110px;
+  justify-content: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.majorpic {
+  max-height: 737px;
+}
+/* .grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "blue"
+  "ivory"
+  "gb";
+  } */
+
+.grid_container{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 737px;
+  grid-template-areas:
+    "blue blue blue blue"
+    "gb gb ivory ivory";
+  grid-gap: 1rem;
+  /*grid-gap is space between the boxes while grid-row-gap is space between rows*/
+  grid-row-gap:2rem;
+  margin-bottom: 4rem;
+  margin-top: 5rem;
+}
+
+.grid_container_4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  grid-template-areas:
+    "pic1 pic2 words1";
+  grid-row-gap: 1rem;
+  margin-top: 120px;
+}
+
+.grid_container_2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 500px;
+  grid-template-areas:
+    "grid2-words grid2-photo1 grid2-photo1"
+    "grid2-photo2 grid2-photo2 grid2-words2";
+  grid-gap: 1rem;
+  margin-top: 120px;
+}
+
+.grid_container_3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px;
+  grid-template-areas:
+    "grid3-words grid3-photo1 grid3-photo3";
+  grid-gap:3rem;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.grid_container_5{
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  grid-template-rows: 200px 200px;
+  grid-template-areas:
+    "grid5-photo1 grid5-photo2 grid5-photo3 grid5-photo4 grid5-photo9 grid5-photo10"
+    "grid5-photo5 grid5-photo6 grid5-photo7 grid5-photo8 grid5-photo11 grid5-photo12";
+  grid-gap: 1rem;
+  margin-bottom: 100px;
+}
+
+.box{
+  min-height: 200px;
+}
+.ivory{
+  grid-area: ivory;
+  align-self: stretch;
+}
+.blue{
+  grid-area: blue;
+  background-color: #fbfbf8;
+}
+.gb{
+  grid-area: gb;
+  background-color: #C0DAD9;
+}
+
+.grid2-photo1{
+  grid-area: grid2-photo1;
+}
+
+.grid2-words{
+  grid-area: grid2-words;
+  text-align: right;
+  margin-right:5px;
+  font-size: 25px;
+}
+
+.grid2-photo2{
+  grid-area: grid2-photo2;
+}
+
+.grid2-words2{
+  grid-area: grid2-words2;
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+.grid3-photo3{
+  grid-area: grid3-photo3;
+  margin-right: 30px;
+}
+
+.grid3-photo1{
+  grid-area: grid3-photo1;
+  margin-left: 180px;
+}
+
+.grid3-words{
+  grid-area: grid3-words;
+  text-align: right;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.pic1{
+  grid-area: pic1;
+}
+
+.pic2{
+  grid-area: pic2;
+}
+
+.words1{
+  grid-area: words1;
+  margin-left: 20px;
+  margin-top: 70px;
+  font-size: 25px;
+}
+
+.grid5-photo1{
+  grid-area: grid5-photo1;
+}
+.grid5-photo2{
+  grid-area: grid5-photo2;
+}
+.grid5-photo3{
+  grid-area: grid5-photo3;
+}
+.grid5-photo4{
+  grid-area: grid5-photo4;
+}
+.grid5-photo5{
+  grid-area: grid5-photo5;
+}
+.grid5-photo6{
+  grid-area: grid5-photo6;
+}
+.grid5-photo7{
+  grid-area: grid5-photo7;
+}
+.grid5-photo8{
+  grid-area: grid5-photo8;
+}
+.grid5-photo9{
+  grid-area: grid5-photo9;
+}
+.grid5-photo10{
+  grid-area: grid5-photo10;
+}
+.grid5-photo11{
+  grid-area: grid5-photo11;
+}
+.grid5-photo12{
+  grid-area: grid5-photo12;
+}

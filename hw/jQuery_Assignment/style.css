@@ -1,0 +1,167 @@
+body {
+  background-color: #fbfbf8;
+  /**light tan**/
+  color: #535353;
+  /**text is dark brown/black**/
+}
+
+#ack {
+  color: #9ec7c3;
+  /* babyblue */
+  font-size: 95px;
+  font-family: "Liu Jian Mao Cao", cursive;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: -50px;
+  font-family: "Muli", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Liu Jian Mao Cao", cursive;
+  color: #618985;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  font-weight: bolder;
+}
+
+h5 {
+  font-family: "Muli", sans-serif;
+  text-align: center;
+}
+.grid_container_1 {
+  display: grid;
+  width: 400px;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-areas:
+    "grid-photo1 grid-photo2 grid-photo3 grid-photo4"
+    "grid-photo5 grid-photo6 grid-photo7 grid-photo8";
+  grid-gap: 3px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+img {
+  width: 400px;
+}
+
+.image-grid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-photo1 {
+  grid-area: grid-photo1;
+}
+.grid-photo2 {
+  grid-area: grid-photo2;
+}
+.grid-photo3 {
+  grid-area: grid-photo3;
+}
+.grid-photo4 {
+  grid-area: grid-photo4;
+}
+.grid-photo5 {
+  grid-area: grid-photo5;
+}
+.grid-photo6 {
+  grid-area: grid-photo6;
+}
+.grid-photo7 {
+  grid-area: grid-photo7;
+}
+.grid-photo8 {
+  grid-area: grid-photo8;
+  /* object-fit: contain; */
+}
+
+.section {
+  position: relative;
+  width: 200%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#list {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+}
+
+#places {
+  display: none;
+}
+
+#myBtn {
+  background-color: #9ec7c3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin-left: 590px;
+}
+
+.grid_container_2 {
+  display: grid;
+  width: 400px;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-areas:
+    "grid-photo9 grid-photo10 grid-photo11 grid-photo12"
+    "grid-photo13 grid-photo14 grid-photo15 grid-photo16";
+  grid-gap: 3px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+.image-grid2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-photo9 {
+  grid-area: grid-photo9;
+}
+.grid-photo10 {
+  grid-area: grid-photo10;
+}
+.grid-photo11 {
+  grid-area: grid-photo11;
+}
+.grid-photo12 {
+  grid-area: grid-photo12;
+}
+.grid-photo13 {
+  grid-area: grid-photo13;
+}
+.grid-photo14 {
+  grid-area: grid-photo14;
+}
+.grid-photo15 {
+  grid-area: grid-photo15;
+}
+.grid-photo16 {
+  grid-area: grid-photo16;
+  /* object-fit: contain; */
+}

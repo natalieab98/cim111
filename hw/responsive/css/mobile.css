@@ -1,0 +1,78 @@
+body{
+  margin: 2% 4%;
+}
+
+@media only screen and (max-width:600px) {
+
+  .grid_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "blue"
+    "ivory"
+    "gb";
+    }
+
+  .grid_container_4 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "pic1"
+    "pic2"
+    "words1";
+    }
+
+  .grid_container_2{
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 500px;
+    grid-template-areas:
+    "grid2-words"
+    "grid2-photo1"
+    "grid2-photo1"
+    "grid2-photo2"
+    "grid2-photo2"
+    "grid2-words2";
+    }
+
+    .grid_container_3{
+      grid-template-columns: 1fr;
+      /* grid-template-rows: 250px; */
+      grid-template-areas:
+        "grid3-words"
+        "grid3-photo1"
+        "grid3-photo3";
+    }
+
+    .grid_container_5{
+      grid-template-columns: repeat(2, 150px);
+      grid-template-rows: repeat(6, 150px);
+      grid-template-areas:
+        "grid5-photo1 grid5-photo2"
+        "grid5-photo3 grid5-photo4"
+        "grid5-photo5 grid5-photo6"
+        "grid5-photo7 grid5-photo8"
+        "grid5-photo9 grid5-photo10"
+        "grid5-photo11 grid5-photo12";
+    }
+
+    .grid2-words{
+      text-align: left;
+    }
+    .grid-2words2{
+      text-align: left;
+      /* max-width: 300px; */
+    }
+    .grid3-words{
+      text-align: left;
+    }
+    .grid3-photo1{
+      /* padding-right: 90px; */
+      /* float:left; */
+    }
+    #special-picture {
+      width: 200px;
+    }
+
+    .ivory {
+      justify-self: start;
+    }
+}

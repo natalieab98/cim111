@@ -1,0 +1,40 @@
+html{
+  font-size: 21px;
+  /**default size it 16 px, but 21px is 1 rem SO you can use rem instead if you want to make proprotions easier than guessing px sizes**/
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
+.grid_container{
+  display: grid;
+  grid-template-areas:
+    "ivory ivory blue"
+    "gb gb gb";
+  grid-gap: 1rem;
+  /**rem is **/
+  /**grid-gap is space between the boxes while grid-row-gap is space between rowa**/
+  grid-row-gap:1rem;
+}
+
+/**body{
+  font-size: 1.6rem;
+}**/
+
+.box{
+   border: 1px solid #D7D1CA;
+   font-family: monospace;
+   /**light gray border for all the classes with box in them**/
+   min-height: 200px;
+}
+.ivory{
+  grid-area: ivory;
+  background-color: #FCFEF0;
+}
+.blue{
+  grid-area: blue;
+  background-color: #C0E6E5;
+}
+.gb{
+  grid-area: gb;
+  background-color: #C0DAD9;
+}

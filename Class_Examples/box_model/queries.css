@@ -1,0 +1,14 @@
+@media only screen and (min-width: 100px) and (max-width: 600px){
+  /** all the styling for when the screen is 100px or higher and 599 and lower **/
+  main{
+      background-color: #FFC700;
+      /** darkblue **/
+      color:#D6D3F0
+    }
+}
+
+/** max-width ==> check the width, and doo [XXXXXX] if width < max-width value
+
+minp-width ==> check the width, and do [YYYYYY] if width >  win-width value
+
+min-width & max-width ==> check the width, and so [ZZZZZZ] if width ____  **/
