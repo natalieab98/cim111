@@ -1,0 +1,21 @@
+body {
+  background-color: #fbfbf8;
+  /**light tan**/
+  color: #535353;
+  /**text is dark brown/black**/
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.title {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}

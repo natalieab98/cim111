@@ -8,14 +8,19 @@ body {
 #ack {
   color: #9ec7c3;
   /* babyblue */
-  font-size: 95px;
+  font-size: 140px;
   font-family: "Liu Jian Mao Cao", cursive;
+  text-align: center;
+  margin-top: 20px;
 }
 
 h2 {
   font-size: 25px;
   margin-top: -50px;
   font-family: "Muli", sans-serif;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 h3 {

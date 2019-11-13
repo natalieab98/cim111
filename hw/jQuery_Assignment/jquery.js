@@ -4,10 +4,10 @@ $(document).ready(function() {
 			$("#ack").click(function() {
 				console.log(ackClicked)
 				if (ackClicked === 0) {
-					$("#ack").css("font-size", "200px");
+					$("#ack").css("font-size", "240px");
 					ackClicked = 1;
 				} else {
-					$("#ack").css("font-size", "50px");
+					$("#ack").css("font-size", "140px");
 					ackClicked = 0;
 				}
 			});
