@@ -1,14 +1,14 @@
-html{
-  font-family: 'Lora', serif;
+html {
+  font-family: "Lora", serif;
 }
 
-.name{
+.name {
   width: 300px;
   display: block;
   margin: 0 auto;
 }
 
-img{
+img {
   /* height: 180px;
   width: 300px;
   display: block;
@@ -37,11 +37,11 @@ img{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #DED0CD;
+  background-color: #ded0cd;
   color: black;
 }
 
-body{
+body {
   background-color: #fbfbf8;
   /**light tan**/
   color: #535353;
@@ -81,31 +81,30 @@ body{
   "gb";
   } */
 
-.grid_container{
+.grid_container {
   display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 200px 737px;
   grid-template-areas:
     "blue blue blue blue"
     "gb gb ivory ivory";
   grid-gap: 1rem;
   /*grid-gap is space between the boxes while grid-row-gap is space between rows*/
-  grid-row-gap:2rem;
+  grid-row-gap: 2rem;
   margin-bottom: 4rem;
   margin-top: 5rem;
 }
 
-.grid_container_4{
+.grid_container_4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 500px;
-  grid-template-areas:
-    "pic1 pic2 words1";
+  grid-template-areas: "pic1 pic2 words1";
   grid-row-gap: 1rem;
   margin-top: 120px;
 }
 
-.grid_container_2{
+.grid_container_2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 350px 500px;
@@ -116,18 +115,17 @@ body{
   margin-top: 120px;
 }
 
-.grid_container_3{
+.grid_container_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 250px;
-  grid-template-areas:
-    "grid3-words grid3-photo1 grid3-photo3";
-  grid-gap:3rem;
+  grid-template-areas: "grid3-words grid3-photo1 grid3-photo3";
+  grid-gap: 3rem;
   margin-top: 90px;
   margin-bottom: 90px;
 }
 
-.grid_container_5{
+.grid_container_5 {
   display: grid;
   grid-template-columns: repeat(6, 200px);
   grid-template-rows: 200px 200px;
@@ -138,108 +136,116 @@ body{
   margin-bottom: 100px;
 }
 
-.box{
+.box {
   min-height: 200px;
 }
-.ivory{
+.ivory {
   grid-area: ivory;
   align-self: stretch;
 }
-.blue{
+.blue {
   grid-area: blue;
   background-color: #fbfbf8;
 }
-.gb{
+.gb {
   grid-area: gb;
-  background-color: #C0DAD9;
+  background-color: #c0dad9;
 }
 
-.grid2-photo1{
+.grid2-photo1 {
   grid-area: grid2-photo1;
 }
 
-.grid2-words{
+.grid2-words {
   grid-area: grid2-words;
   text-align: right;
-  margin-right:5px;
+  margin-right: 5px;
   font-size: 25px;
 }
 
-.grid2-photo2{
+.grid2-photo2 {
   grid-area: grid2-photo2;
 }
 
-.grid2-words2{
+.grid2-words2 {
   grid-area: grid2-words2;
   margin-top: 60px;
   font-size: 25px;
 }
 
-.grid3-photo3{
+.grid3-photo3 {
   grid-area: grid3-photo3;
   margin-right: 30px;
 }
 
-.grid3-photo1{
+.grid3-photo1 {
   grid-area: grid3-photo1;
   margin-left: 180px;
 }
 
-.grid3-words{
+.grid3-words {
   grid-area: grid3-words;
   text-align: right;
   margin-top: 40px;
   font-size: 25px;
 }
 
-.pic1{
+.pic1 {
   grid-area: pic1;
 }
 
-.pic2{
+.pic2 {
   grid-area: pic2;
 }
 
-.words1{
+.words1 {
   grid-area: words1;
   margin-left: 20px;
   margin-top: 70px;
   font-size: 25px;
 }
 
-.grid5-photo1{
+.grid5-photo1 {
   grid-area: grid5-photo1;
 }
-.grid5-photo2{
+.grid5-photo2 {
   grid-area: grid5-photo2;
 }
-.grid5-photo3{
+.grid5-photo3 {
   grid-area: grid5-photo3;
 }
-.grid5-photo4{
+.grid5-photo4 {
   grid-area: grid5-photo4;
 }
-.grid5-photo5{
+.grid5-photo5 {
   grid-area: grid5-photo5;
 }
-.grid5-photo6{
+.grid5-photo6 {
   grid-area: grid5-photo6;
 }
-.grid5-photo7{
+.grid5-photo7 {
   grid-area: grid5-photo7;
 }
-.grid5-photo8{
+.grid5-photo8 {
   grid-area: grid5-photo8;
 }
-.grid5-photo9{
+.grid5-photo9 {
   grid-area: grid5-photo9;
 }
-.grid5-photo10{
+.grid5-photo10 {
   grid-area: grid5-photo10;
 }
-.grid5-photo11{
+.grid5-photo11 {
   grid-area: grid5-photo11;
 }
-.grid5-photo12{
+.grid5-photo12 {
   grid-area: grid5-photo12;
+}
+
+#about {
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 30px;
+  padding: 50px;
 }
