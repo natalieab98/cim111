@@ -42,8 +42,8 @@ body {
   }
 
   .grid_container_5 {
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(6, 150px);
     grid-template-areas:
       "grid5-photo1 grid5-photo2"
       "grid5-photo3 grid5-photo4"
