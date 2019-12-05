@@ -7,6 +7,10 @@ body {
   font-family: "Alegreya Sans SC", sans-serif;
 }
 
+h2 {
+  padding-left: 20px;
+  font-size: 40px;
+}
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -22,9 +26,10 @@ body {
   /* left: 50%;
   top: 40%; */
   /* transform: translate(-50%, -50%); */
-  font-size: 70px;
+  font-size: 80px;
   display: inline;
   margin-right: 40%;
+  padding-left: 20px;
 }
 
 .topnav {

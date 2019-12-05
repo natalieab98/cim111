@@ -1,0 +1,14 @@
+body {
+  background-color: #ffffff;
+  color: #535353;
+  /**text is dark brown/black**/
+  /* font-family: "Questrial", sans-serif; */
+  font-family: "Alegreya Sans SC", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  color: #dad9da;
+  font-size: 150px;
+}
