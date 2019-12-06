@@ -1,46 +1,3 @@
-html {
-  font-family: "Lora", serif;
-}
-
-.name {
-  width: 300px;
-  display: block;
-  margin: 0 auto;
-  margin-top: -30px;
-}
-
-.topnav {
-  background-color: #f5eddd;
-  overflow: hidden;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  background-color: #f5eddd;
-  text-align: center;
-  color: #535353;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ded0cd;
-  color: black;
-}
-
-body {
-  background-color: #f5eddd;
-  /**light tan**/
-  color: #535353;
-  /**text is dark brown/black**/
-}
-
 #about {
   text-align: left;
   margin: auto;
@@ -54,4 +11,46 @@ h1 {
   font-size: 100px;
   padding-top: -20px;
   text-align: center;
+}
+.parent-media {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 200px 450px 200px 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 4rem auto 0 auto;
+}
+
+div.parent-media .div1 {
+  grid-area: 1 / 2 / 3 / 4;
+}
+div.parent-media .div2 {
+  grid-area: 2 / 3 / 4 / 5;
+}
+div.parent-media .div3 {
+  grid-area: 3 / 2 / 6 / 4;
+}
+div.parent-media .div4 {
+  grid-area: 4 / 3 / 5 / 5;
+}
+
+.test-img {
+  width: 100%;
+  border: 0.5px solid black;
+}
+#media1 {
+  width: 85%;
+}
+
+#media2 {
+  width: 75%;
+  margin-top: -90px;
+}
+#media3 {
+  width: 75%;
+  margin-top: -85px;
+}
+#media4 {
+  /* margin-top: 50px; */
+  width: 90%;
 }
