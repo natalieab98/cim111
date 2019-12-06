@@ -37,4 +37,35 @@ body {
   /* end of mobile code for writing grid */
 
   /* start of mobile code for styling  */
+  .parent-styling {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  div.parent-styling .div1 {
+    grid-area: 1 / 1 / 3 / 4;
+  }
+  div.parent-styling .div2 {
+    grid-area: 1 / 2 / 1 / 4;
+  }
+  div.parent-styling .div3 {
+    grid-area: 1 / 1 / 3 / 4;
+  }
+  div.parent-styling .div4 {
+    grid-area: 2 / 2 / 4 / 5;
+  }
+  #majorshoppe1 {
+    width: 85%;
+  }
+  #majorshoppe2 {
+    width: 90%;
+    margin-top: 300px;
+  }
+  #majorshoppe3 {
+    /* padding-top: 150px; */
+    width: 100%;
+    margin-top: 150px;
+  }
+  #majorshoppe4 {
+    margin-top: 100px;
+  }
 }
