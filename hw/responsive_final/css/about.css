@@ -40,3 +40,10 @@ body {
   color: #535353;
   /**text is dark brown/black**/
 }
+
+h1 {
+  color: #ffffff;
+  font-size: 100px;
+  padding-top: -20px;
+  text-align: center;
+}
