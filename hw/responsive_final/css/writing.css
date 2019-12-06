@@ -81,3 +81,17 @@ h1 {
 . {
   grid-area: 6 / 4 / 7 / 6;
 }
+
+.writing1 {
+  width: 200px;
+}
+
+.writing2 {
+  width: 200px;
+}
+.writing3 {
+  width: 200px;
+}
+.writing4 {
+  width: 200px;
+}
