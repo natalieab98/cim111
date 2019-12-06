@@ -47,3 +47,51 @@ h1 {
   padding-top: -20px;
   text-align: center;
 }
+
+.grid_container_5 {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  grid-template-rows: 200px 200px;
+  grid-template-areas:
+    "grid5-photo1 grid5-photo2 grid5-photo3 grid5-photo4 grid5-photo9 grid5-photo10"
+    "grid5-photo5 grid5-photo6 grid5-photo7 grid5-photo8 grid5-photo11 grid5-photo12";
+  grid-gap: 1rem;
+  margin-bottom: 100px;
+}
+
+.grid5-photo1 {
+  grid-area: grid5-photo1;
+}
+.grid5-photo2 {
+  grid-area: grid5-photo2;
+}
+.grid5-photo3 {
+  grid-area: grid5-photo3;
+}
+.grid5-photo4 {
+  grid-area: grid5-photo4;
+}
+.grid5-photo5 {
+  grid-area: grid5-photo5;
+}
+.grid5-photo6 {
+  grid-area: grid5-photo6;
+}
+.grid5-photo7 {
+  grid-area: grid5-photo7;
+}
+.grid5-photo8 {
+  grid-area: grid5-photo8;
+}
+.grid5-photo9 {
+  grid-area: grid5-photo9;
+}
+.grid5-photo10 {
+  grid-area: grid5-photo10;
+}
+.grid5-photo11 {
+  grid-area: grid5-photo11;
+}
+.grid5-photo12 {
+  grid-area: grid5-photo12;
+}
